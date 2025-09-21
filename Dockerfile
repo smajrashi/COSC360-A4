@@ -2,7 +2,7 @@
 # Stage 1 — build frontend
 # -----------------------
 FROM node:18 AS node_builder
-WORKDIR /app
+WORKDIR /app 
 
 # Copy package files first for caching
 COPY package*.json ./
